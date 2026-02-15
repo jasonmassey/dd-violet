@@ -7,14 +7,14 @@ export default function App() {
           coordination plane
         </div>
         <h1 className="text-5xl font-bold tracking-tight mb-4">
-          DD <span className="text-accent">Green</span>
+          DD <span className="text-accent">Violet</span>
         </h1>
         <p className="text-xl text-text-muted mb-6">
           One team. Humans and agents. One backlog.
         </p>
         <p className="text-text-muted leading-relaxed mb-10">
           The coordination layer for engineering teams deploying AI agents at
-          scale. DD Green unifies human and agent work into a single board with
+          scale. DD Violet unifies human and agent work into a single board with
           intelligent routing, conflict detection, and unified velocity tracking.
         </p>
         <div className="grid grid-cols-3 gap-4 text-left">

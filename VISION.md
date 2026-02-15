@@ -1,10 +1,10 @@
-# DD Green — The Coordination Plane
+# DD Violet — The Coordination Plane
 
 > One team. Humans and agents. One backlog.
 
 ## What It Is
 
-DD Green is the coordination layer for engineering teams that deploy AI agents alongside human developers. It provides a unified board where human work and agent work are managed with the same primitives — routing, dependencies, conflict detection, review queues, and velocity tracking.
+DD Violet is the coordination layer for engineering teams that deploy AI agents alongside human developers. It provides a unified board where human work and agent work are managed with the same primitives — routing, dependencies, conflict detection, review queues, and velocity tracking.
 
 ## The Problem
 
@@ -63,19 +63,19 @@ Retrospect & improve routing
 - Cross-project conflict detection
 - Milestone tracking across the full engineering org
 
-## What DD Green Is NOT
+## What DD Violet Is NOT
 
-- **Not a project management tool.** Linear and Jira own the backlog UI. DD Green owns the coordination of who (human or agent) executes what.
-- **Not an agent runner.** DD Red handles execution. DD Green handles routing and coordination.
-- **Not a code review tool.** GitHub PRs handle review mechanics. DD Green handles review routing and tracking.
+- **Not a project management tool.** Linear and Jira own the backlog UI. DD Violet owns the coordination of who (human or agent) executes what.
+- **Not an agent runner.** DD Red handles execution. DD Violet handles routing and coordination.
+- **Not a code review tool.** GitHub PRs handle review mechanics. DD Violet handles review routing and tracking.
 
 ## Architecture (Shared Platform)
 
-DD Green is a focused frontend on the dev-dash platform API. Multi-user access, project members, permissions, and notifications are shared.
+DD Violet is a focused frontend on the dev-dash platform API. Multi-user access, project members, permissions, and notifications are shared.
 
 ```
 ┌──────────────┐     ┌──────────────────────┐
-│  DD Green    │────▶│   dev-dash server    │
+│  DD Violet    │────▶│   dev-dash server    │
 │   (Vercel)   │     │    (Railway API)     │
 └──────────────┘     └──────────────────────┘
                               │

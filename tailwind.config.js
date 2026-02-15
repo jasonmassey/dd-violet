@@ -5,7 +5,7 @@ export default {
     extend: {
       colors: {
         surface: { DEFAULT: '#0a0a0a', raised: '#141414', border: '#2a2a2a' },
-        accent: { DEFAULT: '#059669', light: '#10b981', dim: '#065f46' },
+        accent: { DEFAULT: '#7c3aed', light: '#a78bfa', dim: '#5b21b6' },
         text: { DEFAULT: '#e5e5e5', muted: '#737373' },
       },
       fontFamily: {
